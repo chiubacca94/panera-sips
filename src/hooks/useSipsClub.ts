@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
 import { paneraService } from "../services/paneraService";
-import { googleService } from "../services/googleService";
 import type { SipsStatus, LoadingState } from "../types/sips";
 
 const TICK_MS = 1_000;
